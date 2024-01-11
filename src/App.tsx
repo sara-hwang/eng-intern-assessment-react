@@ -46,7 +46,7 @@ export default function App() {
         <StopWatchButton
           color="blue"
           disabled={time === 0}
-          label="Clear"
+          label="Reset"
           onButtonClick={clearTimer}
         />
       </div>
